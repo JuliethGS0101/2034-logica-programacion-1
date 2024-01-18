@@ -1,3 +1,4 @@
+/*
 alert ("¡Bienvenida y bievenido a nuestro sitio web!");
 
 let nombre = ('Luna');
@@ -16,4 +17,4 @@ let Edad = prompt ('Dijite su edad');
 if (Edad >= 18) {
     alert('¡Puede obtener su licencia de conducir!');
 }
-
+*/

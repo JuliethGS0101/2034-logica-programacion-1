@@ -1,10 +1,15 @@
+//variable
 let numeroSecreto = 4;
-let eleccion = prompt('Elige un número entre 1 y 10');
+let numeroUsuario = prompt("Elige un número entre 1 y 10:");
 
 console.log(numeroUsuario);
+/*Este codigo realiza la comparacion*/
 
-if (eleccion == numeroSecreto) {
-    alert('Adivinaste');
-} 
+
+if (numeroUsuario == numeroSecreto) {
+    alert(`Adivinaste, el numero es: ${numeroUsuario}`);
+} else {
+    alert('Lo siento, no acertaste el numero');
+}
 
 
